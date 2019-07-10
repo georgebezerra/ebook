@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang='pt-br'>
+  <head>
+    <title>EBOOK</title>
+    <meta charset='utf-8' />
+    <link rel="stylesheet" type='text/css' href="style/css/style.css">
+    <script type='text/javascript'>
+    //Verifica se o campo nome foi preenchido e contém no mínimo 3 caracteres.
+      function validaForm(e){
+        if(e.nome.value == '' || e.nome.value == null || e.nome.value.lenght < 3){
+          alert('Por favor, digite o seu nome.');
+          e.nome.focus();
+          return false;
+        }
+      //Verifica se o e-mail contém @, . e não pode estar vazio.
+      if(e.email.value.indexOf('@') == -1 ||
+         e.email.valueOf.indexOf('.') == -1 ||
+         e.email.value == "" ||
+         e.email.value == null){
+           alert("Por favor, indique um e-mail válido.");
+           e.email.focus()
+           return false
+         }
+      }
+
+    </script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p>E-BOOK</p>
+        <p>GRATUITO</p>
+      </header>
+      <article>
+        <h1>PREVINA-SE!</h1>
+        <h3>POR QUE RESTAURANTES</h3>
+        <h2>FECHAM?</h2>
+        <section>
+          <p>Erros Contábeis e Administrativos</p>
+          <p>que levam à falência</p>
+        </section>
+      </article>
+      <aside>
+        <img class='logo' src="img/logo.png" alt="logo">
+        <spam class='legenda'>
+          <p>PARA SABER MAIS,</p>
+          <p>BAIXE O NOSSO</p>
+          <p>E-BOOK AQUI:</p>
+        </spam>
+        <form name='pessoa' id='pessoa' action="#" method='post' onsubmit="return validaForm(this)">
+          <input type="text" name='nome' placeholder="*Seu nome completo"><br />
+          <input type="text" name='email' placeholder="*Seu email profissional">
+          <input type="submit" class='ebook' value="BAIXAR E-BOOK">
+          <input class='baixar' type="checkbox" name="baixar" value="ebook">
+          <p class='clicar'>Ao clicar em Baixar, você aceita nossos<br/>
+            termos de uso e nossas políticas de<br />
+             privacidade</p>
+        </form>
+      </aside>
+    </main>
+  </body>
+</html>

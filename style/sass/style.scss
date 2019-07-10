@@ -1,0 +1,110 @@
+$color_1: #fff;
+$color_2: #e79b9d;
+$color_3: #a32831;
+$font-family_1: Arial, sans-sans-serif;
+$background-color_1: #a32831;
+$background-color_2: #fff;
+
+body {
+	padding: 0;
+	color: $color_1;
+	margin: 0 auto;
+	position: relative;
+	background-image: url(../../img/fundo.jpg);
+	font-family: $font-family_1;
+}
+h1 {
+	font-size: 5rem;
+	font-weight: bold;
+	margin: 0rem 0rem -2rem 0rem;
+}
+h2 {
+	font-size: 3rem;
+	margin: -1rem 0rem -2rem 0rem;
+}
+h3 {
+	font-size: 2rem;
+	word-spacing: 1rem;
+}
+header {
+	width: 15rem;
+	color: $color_2;
+	font-size: 2rem;
+	font-weight: bold;
+	position: relative;
+	margin: 4rem 0rem 0rem 6rem;
+}
+article {
+	width: 40rem;
+	font-style: italic;
+	margin: 16rem 0rem 0rem 6rem;
+}
+section {
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin: 5rem 0rem 0rem 0rem;
+}
+aside {
+	float: left;
+	width: 25rem;
+	height: 59rem;
+	margin: -50rem 0rem 0rem 50rem;
+	background-color: $background-color_1;
+}
+.logo {
+	margin: 6rem 0rem 0rem 7rem;
+}
+.legenda {
+	font-size: 1.9rem;
+	text-align: center;
+	font-style: italic;
+	margin: 2rem 0rem 0rem 5rem;
+}
+input {
+	width: 20rem;
+	height: 3rem;
+	border: 1px solid #fff;
+	background-color: $background-color_1;
+	margin: 1rem 0rem 0rem 3rem;
+}
+::-webkit-input-placeholder {
+	color: $color_1;
+	font-style: italic;
+	padding: 0rem 0rem 0rem 2rem;
+	font: 1rem arial, sans-serif;
+}
+:-moz-placeholder {
+	color: $color_1;
+	font-style: italic;
+	padding: 0rem 0rem 0rem 2rem;
+	font: 1rem arial, sans-serif;
+}
+::-moz-placeholder {
+	color: $color_1;
+	font-style: italic;
+	padding: 0rem 0rem 0rem 2rem;
+	font: 1rem arial, sans-serif;
+}
+:-ms-input-placeholder {
+	color: $color_1;
+	padding: 0rem 0rem 0rem 2rem;
+	font: 1rem arial, sans-serif;
+}
+.ebook {
+	color: $color_3;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.1rem;
+	background-color: $background-color_2;
+	border: 1px solid #fff;
+	margin: 1rem 0rem 0rem 3rem;
+}
+.baixar {
+	width: 2rem;
+	height: 1rem;
+}
+.clicar {
+	width: 18rem;
+	margin: -1.4rem 0rem 0rem 5rem;
+}
