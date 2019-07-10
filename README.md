@@ -3,7 +3,7 @@ E-Book HotPage
 
 **Demo**
 
-![E-Book](https://github.com/georgebezerra/vuttarpp/blob/master/public/home.png)
+![E-Book](https://github.com/georgebezerra/ebook/blob/master/img/print.png)
 
 Link: https://ebookux.netlify.com/
 
