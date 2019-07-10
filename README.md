@@ -1,21 +1,16 @@
 # ebook
 E-Book HotPage
 
-# Vuttr Project
-
-Vuttr Project é um aplicativo para executar as operações: listar, cadastrar, deletar e pesquisar.
-
 **Demo**
 
-![Vuttr Project](https://github.com/georgebezerra/vuttarpp/blob/master/public/home.png)
+![E-Book](https://github.com/georgebezerra/vuttarpp/blob/master/public/home.png)
 
 Este aplicativo foi criado:  
 
-* uuid  
-* axios
-* React
-* React Hooks  
-* React-Bootstrap 
+* HTML5  
+* CSS3
+* SASS
+* JavaScript
 
 **Iniciando o projeto**
 
